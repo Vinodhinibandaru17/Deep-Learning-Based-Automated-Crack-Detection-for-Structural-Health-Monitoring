@@ -1,0 +1,11 @@
+# For Streamlit Community Cloud / local use (CPU inference).
+--extra-index-url https://download.pytorch.org/whl/cpu
+streamlit>=1.40,<1.50
+numpy
+pandas
+Pillow
+opencv-python-headless
+scikit-image
+torch
+torchvision
+# optional YOLOv8 tab:  ultralytics
